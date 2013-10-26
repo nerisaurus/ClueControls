@@ -7,9 +7,9 @@ public class ClueControlFrame extends JFrame{
 	
 	public ClueControlFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setSize(600,300);
+		setSize(800,300);
 		ClueControlPanel controls = new ClueControlPanel();
-		add(controls, BorderLayout.CENTER);
+		add(controls);
 		//all of the actual panel logic is in ClueControlPanel
 		//for greater portability once we actually want to move this
 		//to the main Clue game.
