@@ -3,7 +3,6 @@ import java.awt.BorderLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-
 public class SuggestionAccusationPanel extends JPanel {
 	SuggestionAccusationPanel(){
 		setLayout(new BorderLayout());

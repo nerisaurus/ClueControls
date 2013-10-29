@@ -1,11 +1,9 @@
-
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
-
 
 public class SuggestionLogPanel extends JPanel {
 	private JTextArea log;
